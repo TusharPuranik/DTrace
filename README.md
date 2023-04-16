@@ -21,7 +21,6 @@ In summary, a dual-use chemical tracking system that leverages supply chain data
 
 1. Download and install Ganache from https//www.trufflesuite.com/ganache.Install XAMPP on Windows from https//www.apachefriends.org/download.html
 Download and install Google Chrome.
-
 2. If you do not  formerly have it. also, go to the Chrome store and download the Metamask extension from https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn. Create an account on Metamask.  
 3.Launch Ganache.  In Metamask,  elect Networks> Custom RPC. Name the network anything you like. Copy the RPC Garçon URL from Ganache( generally HTTP://127.0.0.17545 but check to be sure).  
 4.Go to Metamask> Accounts> Import Account.  
