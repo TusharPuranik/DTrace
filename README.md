@@ -10,9 +10,40 @@ Furthermore, this system can also be employed for security purposes, such as pre
 In summary, a dual-use chemical tracking system that leverages supply chain data can bring forth advantages for both commercial and security purposes. It can facilitate the efficient and transparent management of the supply chain while also promoting safety and security through effective monitoring and tracking of chemical substances.
 
 ## Techstack
-Solidity
-Javascript
-PhP
-Html
-CSS
-Blockchain
+1. Solidity
+2. Javascript
+3. PhP
+4. Html
+5. CSS
+6. Blockchain
+
+## Installation Steps
+
+1.Download and install Ganache from https//www.trufflesuite.com/ganache.Install XAMPP on Windows from https//www.apachefriends.org/download.html
+Download and install Google Chrome. 
+2. If you do not  formerly have it. also, go to the Chrome store and download the Metamask extension from https//chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn.Create an account on Metamask.  
+3. Launch Ganache.  In Metamask,  elect Networks> Custom RPC.  Name the network anything you like.  Copy the RPC Garçon URL from Ganache(  generally HTTP//127.0.0.17545 but check to be sure).  
+4. Go to Metamask> Accounts> Import Account.  
+5. In Ganache, go to the Accounts tab, click on the  crucial icon on the right for any account, and copy the private key.  
+6. Paste this key into the Metamask import account section.  
+7. Copy thesmartcontract.sol  train from this depository and  bury it into the  law section at https//remix.ethereum.org/.Save the  train, go to the Compile tab, and  collect the  law. 
+8.  Go to the Deploy tab,  elect Environment as" fitted Web3".  
+9.  Click on Deploy. 
+Copy the contract address and  bury it into theapp.js  train.  Copy the contract ABI from the Compile tab and  bury it into theapp.js  train.  launch XAMPP or MAMP( depending on which bone you installed).  Move the  design  brochure into the htdocs  brochure of the root directory. 
+10. Go to either localhost or localhost8888/( depending on the software you installed and your operating system).  
+Open phpMyAdmin, go to SQL, and  bury the SQL queries  handed in the sql  brochure.  
+11. Execute the queries.  Open the URL http// localhost8888/SupplyChainDAPP_FULL or http// localhost/SupplyChainDAPP_FULL( depending on the software you installed, your operating system, and  design name).  The app should now be running as anticipated.
+
+## Libraries and dependencies
+
+1. Install Node.js
+
+``` bash
+$ npm install 
+```
+2. Install Truffle
+``` bash
+$ npm install -g truffle
+$ truffle version
+```
+
